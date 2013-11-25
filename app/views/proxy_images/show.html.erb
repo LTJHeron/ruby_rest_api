@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @proxy_image.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @proxy_image.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_proxy_image_path(@proxy_image) %> |
+<%= link_to 'Back', proxy_images_path %>

@@ -1,0 +1,2 @@
+module ProxyImagesHelper
+end
